@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Program>
+    <MainMethod>
+        <StmList>
+            <Return>
+                <Esc>
+                    <StmList>
+                        <Return>
+                            <IntExp val="2"/>
+                        </Return>
+                    </StmList>
+                    <IntExp val="3"/>
+                </Esc>
+            </Return>
+        </StmList>
+    </MainMethod>
+</Program>

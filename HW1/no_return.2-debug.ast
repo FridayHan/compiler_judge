@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Program>
+    <MainMethod>
+        <StmList>
+            <Assign>
+                <IdExp id="x"/>
+                <IntExp val="1"/>
+            </Assign>
+        </StmList>
+    </MainMethod>
+</Program>

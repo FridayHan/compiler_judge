@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Program>
+    <MainMethod>
+        <StmList>
+            <Assign>
+                <IdExp id="a"/>
+                <IntExp val="3"/>
+            </Assign>
+            <Assign>
+                <IdExp id="b"/>
+                <IntExp val="4"/>
+            </Assign>
+            <Assign>
+                <IdExp id="c"/>
+                <IntExp val="14"/>
+            </Assign>
+            <Assign>
+                <IdExp id="d"/>
+                <IntExp val="41"/>
+            </Assign>
+            <Assign>
+                <IdExp id="k"/>
+                <IntExp val="6"/>
+            </Assign>
+            <Assign>
+                <IdExp id="result"/>
+                <IntExp val="55"/>
+            </Assign>
+            <Return>
+                <IdExp id="result"/>
+            </Return>
+        </StmList>
+    </MainMethod>
+</Program>

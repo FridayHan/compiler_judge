@@ -240,7 +240,7 @@ async fn main() {
     std::env::set_current_dir(test_path).expect("Cannot enter testing directory");
 
 
-    let config = std::fs::read_to_string("index.toml").expect("Cannot read configuration");
+    let config = std::fs::read_to_string("../../HW1/index.toml").expect("Cannot read configuration");
     let test_root: TestRoot = toml::from_str(config.as_str()).expect("Type error in the provided index.toml");
 
     let mut handles = Vec::new();
